@@ -60,7 +60,7 @@ public class Card {
             int startIndex=i*cardsInRow;
             int endIndex=startIndex+cardsInRow;
             for (Card card : deck.subList(startIndex, endIndex)) {
-                System.out.println(card+"");
+                System.out.print(card+"");
             }
             System.out.println();
 
