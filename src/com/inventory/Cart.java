@@ -40,6 +40,10 @@ public class Cart {
         return cartDate;
     }
 
+    public Map<String, Integer> getProducts() {
+        return products;
+    }
+
     public void addItem(InventoryItem item, int qty) {
         //if the item is in the map, then add the quantity to existing item quantity
 
